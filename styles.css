@@ -1,0 +1,289 @@
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  /* Dark gray background */
+  padding: 20px;
+}
+
+
+/* Menu styles */
+nav ul {
+  list-style: none;
+  text-align: center;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  /* White text color */
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+  background-color: #666;
+  /* Dark gray hover background */
+  color: #fff;
+  /* White text color */
+  transform: scale(1.1);
+  /* Zoom effect on hover */
+  border-radius: 10px;
+}
+h2:hover{
+  background-color: #666;
+  color: #fff;
+  border-radius: 10px;
+}
+
+
+
+/* Slider styles */
+.slider {
+  position: relative;
+  width: 100%;
+
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+}
+
+#slider_button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+
+/* Styles for the About Us section */
+.about-us {
+  background-color: #f5f5f5;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#more-info {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/*Services*/
+/* Styles for the Services section */
+/* Styles for the Services section */
+.services {
+  background-color: #f5f5f5;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services-heading {
+  margin-bottom: 20px;
+}
+
+.membership-img {
+  height: 80%;
+  width: 100%;
+}
+
+.membership-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* Allow cards to wrap to next line */
+}
+
+.membership-card {
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  opacity: 1;
+  /* Change opacity to 1 to ensure cards are initially visible */
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.description {
+  color: #666;
+}
+
+/* Animation */
+.membership-card:nth-child(1) {
+  transition-delay: 0.2s;
+}
+
+.membership-card:nth-child(2) {
+  transition-delay: 0.4s;
+}
+
+.membership-card:nth-child(3) {
+  transition-delay: 0.6s;
+}
+
+.membership-card:hover {
+  transform: translateY(-5px);
+}
+
+
+/*Contact-Us*/
+.contact {
+  background-color: #f5f5f5;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.form-card {
+  max-width: 400px;
+  /* Set maximum width for the card */
+  margin: 0 auto;
+  /* Center the card horizontally */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Add a subtle shadow */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  /* Set width to 100% */
+  max-width: 30%;
+  /* Set maximum width to 30% */
+  margin: 0 auto;
+  /* Center the input */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  /* Add transition for smooth zoom effect */
+}
+
+input:focus,
+select:focus {
+  transform: scale(1.1);
+  /* Zoom effect on focus */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  /* Adjust padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+  border-radius: 15px;
+}
+
+
+
+/* Styles for the Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.mobile-number p {
+  margin: 0;
+}
+footer{
+  padding: 23px;
+  text-align: center;
+}
+
+label{
+  display: none;
+}
+
+#check{
+  z-index: 3;
+}

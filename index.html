@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitZoneXpress</title>
+  <link rel="icon" href="gymm icon.webp" type="image/icon type">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav id="main-menu">
+    <ul>
+      <li><h2 style="color: #fff;">FitZoneXpress</h2></li>
+      <li><a href="#main-menu" class="menu-item">Home</a></li>
+      <li><a href="#about-us" class="menu-item">About Us</a></li>
+      <li><a href="#services" class="menu-item">Services</a></li>
+      <li><a href="#contact" class="menu-item">Contact</a></li>
+      <button>Join Now</button>
+    </ul>
+  </nav>
+</header>
+
+<div class="slider">
+    <div class="slides">
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Slide 1">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Slide 2">
+      <img src="https://images.unsplash.com/photo-1516481265257-97e5f4bc50d5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Slide 3">
+      <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Slide 4">
+      <img src="gym-removebg.png" alt="Slide 5">
+      
+    </div>
+    <button id="slider_button" class="prev">&#10094;</button>
+    <button id="slider_button" class="next">&#10095;</button>
+  </div>
+<br>
+<section class="about-us" id="about-us">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>Welcome to FitZoneXpress! We are dedicated to helping you achieve your fitness goals and lead a healthier lifestyle.</p><br>
+      <button id="read-more-btn">Read More</button>
+      <p id="more-info" class="hidden">Our experienced trainers offer personalized workout plans, state-of-the-art equipment, and a supportive community to keep you motivated on your fitness journey.</p>
+    
+    </div>
+  </section>
+<br>
+
+<section id="services" class="services">
+  <h2 class="services-heading">Our Services</h2>
+  <div class="membership-cards">
+    <div class="membership-card">
+   
+      <img class="membership-img" id="membership-img" src="https://as1.ftcdn.net/v2/jpg/00/43/20/28/1000_F_43202857_R7lDImkktICNM7TOFEQuysGAv8FLsd7A.jpg" alt="Bronze Membership">
+      
+      <h3>Bronze Membership</h3>
+      <p class="price">₹500</p>
+      <p class="description">Get access to basic gym facilities and equipment.</p>
+    </div>
+    <div class="membership-card">
+      <img class="membership-img" id="membership-img" src="https://as2.ftcdn.net/v2/jpg/06/44/63/37/1000_F_644633742_hDp3vpVqjVvIkK5IqughDtMy6qXvmqVw.jpg" alt="Silver Membership">
+      <h3>Silver Membership</h3>
+      <p class="price">₹1200</p>
+      <p class="description">Includes access to all gym facilities plus group fitness classes.</p>
+    </div>
+    <div class="membership-card">
+      <img class="membership-img" id="membership-img" src="https://as1.ftcdn.net/v2/jpg/06/52/58/10/1000_F_652581029_UBJMaMhQ7gK8ZzAJQI7uXOhy3phE1hvE.jpg" alt="Gold Membership">
+      <h3>Gold Membership</h3>
+      <p class="price">₹2500</p>
+      <p class="description">Premium membership with personal training sessions and nutrition guidance.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <form action="#" method="POST">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+    </div>
+    <div class="form-group">
+      <label for="mobile">Mobile:</label>
+      <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" placeholder="Enter Your No." required>
+    </div>
+    <div class="form-group">
+      <label for="existing-member">Are you an existing member?</label>
+      <select id="existing-member" name="existing-member">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="social-links">
+      <a href="#" class="social-link">Facebook</a>
+      <a href="#" class="social-link">Twitter</a>
+      <a href="#" class="social-link">Instagram</a>
+    </div>
+    <div class="mobile-number">
+      <p>Mobile: 123-456-7890</p>
+    </div>
+  </div>
+  Copyright &copy; FitZoneXpress.com | All rights reserved
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
